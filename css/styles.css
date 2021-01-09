@@ -56,6 +56,11 @@ nav ul {
     padding: 0;
 }
 
+a:hover {
+    color: #a19a9a;
+    transition: 0.2s;
+}
+
 /* ----------banner---------- */
 
 .header-name {
