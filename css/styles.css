@@ -100,7 +100,7 @@ article img {
 /* ----------footer---------- */
 
 #contact {
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .interest,
@@ -198,11 +198,15 @@ footer aside {
         width: 49%;
     }
 
-    .first {
+    .one,
+    .three,
+    .five{
         float: left;
      }
  
-    .second{
+    .two,
+    .four,
+    .six{
         float:right;
      }
 
@@ -240,17 +244,22 @@ footer aside {
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+
+    hr {
+        width: 90%;
+    }
+
     .footer-nav {
         display: inline-block;
         list-style: none;
         float: right;
         font-weight: 500;
+        padding: 0 15px 0 0;
     }
     .footer-name {
         float: left;
         font-weight: 500;
-        padding: 0px;
+        padding: 0 0 0 15px;
     }
     footer li {
         display: inline-block;
@@ -280,9 +289,15 @@ footer aside {
         float: right;
         padding-top: 40px;
     }
+
+    nav li {
+        margin: 0;
+        padding: 0 0 0 40px;
+    }
    
     .banner {
         width: 90%;
+        max-width: 1150px;
         padding-top: 30px;
     }
 
@@ -297,19 +312,38 @@ footer aside {
     }
 
     .col {
-        width: 30%;
+        width: 32.5%;
+        display: inline-block;
     }
 
-    .second {
-        float: none;
+    .one,
+    .four {
+        float: left;
     }
 
-    .three {
+    .three,
+    .six {
         float: right;
     }
 
-    .two {
-        float: left;
+    .two,
+    .five {
+        float: none;
     }
-  
+   
+    article p {
+        width: 90%;
+    }
+
+    .interest {
+        width: 50%;
+    }
+    .footer-name {
+        padding: 0 0 0 40px;
+    }
+    .footer-nav {
+        padding: 0 40px 0 0;
+    }
+
+
 }
