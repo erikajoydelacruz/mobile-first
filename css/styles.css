@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+/* ----------global styles---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color:rgb(247, 247, 247);
+    color: #1b1b1b;
+    font-size: 1em;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.portfolio {
+    background-color: white;
+    padding: 10px;
+}
+
+/* ----------nav---------- */
+
+nav li {
+    padding: 15px;
+    list-style: none;
+    background-color: white;
+    margin: 7px;
+    font-weight: 500;
+}
+
+nav a {
+    display: block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------banner---------- */
+
+.header-name {
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.banner {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.25em;
+}
+
+.banner img {
+    width: 70%;
+    padding-bottom: 15px;
+}
+
+/* ----------portfolio---------- */
+
+#portfolio {
+    text-transform: uppercase;
+    padding: 50px;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+/* ----------article---------- */
+
+article {
+    padding-bottom: 20px;
+    line-height: 1.2em;
+}
+
+article img {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* ----------footer---------- */
+
+#contact {
+    padding-top: 50px;
+}
+
+.interest,
+.phone,
+.email {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+hr {
+    width: 95%;
+}
+
+footer {
+    margin: 0 auto;
+    width: 90%;
+}
+
+footer h2 {
+    text-transform: uppercase;
+}
+
+.footer-nav{
+    display: none;
+}
+
+.footer-name {
+    float: left;
+    font-weight: 500;
+}
+
+.footer-top {
+    float: right;
+    font-weight: 500;
+}
+
+footer aside {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 1.5em;
+}
+
+.footer-name,
+.footer-top {
+    padding: 10px 0;
+}
+
+.email,
+.phone {
+    font-weight: 500;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* ---------------------------------media query------------------------------ */
+
+@media (min-width: 768px ) {
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    nav li {
+        padding: 15px;
+        list-style: none;
+        margin: 7px;
+        display: inline-block; 
+        background-color:rgb(247, 247, 247);
+    }
+    
+    .banner {
+        display: inline-block;
+        width: 94%;
+    }
+
+    .banner img {
+        float: right;
+        margin-right: 15px;
+        width: 35%;
+    }
+
+    .banner p {
+        width: 60%;
+        float: left;
+        margin-left: 15px;
+        text-align: left;
+        line-height: 1.45em;
+    }
+
+    .col {
+        width: 49%;
+    }
+
+    .first {
+        float: left;
+     }
+ 
+    .second{
+        float:right;
+     }
+
+    article h2 {
+        font-size: 1.25em;
+     }
+    
+    article p {
+        width: 78%;
+        margin: 0 auto;
+        font-size: 1em;
+        line-height: 1.45em;
+        padding-bottom: 20px;
+        height: 80px;
+     }
+    
+    footer {
+        margin: 0 auto;
+    }
+
+    .interest {
+        width: 60%;
+        height: 80px;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-top {
+        display: none;
+    }
+
+    .bottom-footer {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .footer-nav {
+        display: inline-block;
+        list-style: none;
+        float: right;
+        font-weight: 500;
+    }
+    .footer-name {
+        float: left;
+        font-weight: 500;
+        padding: 0px;
+    }
+    footer li {
+        display: inline-block;
+        padding-left: 13px;
+    }
+}
+
+/* ---------------------------------media query------------------------------ */
+
+@media (min-width: 1024px) {
+
+    header {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1150px;
+    }
+
+    .header-name{
+        float: left;
+    }
+
+    .main-nav {
+        float: right;
+        padding-top: 40px;
+    }
+   
+    .banner {
+        width: 90%;
+        padding-top: 30px;
+    }
+
+    .banner p {
+        padding-right: 20px;
+        margin: 0
+    }
+
+    .banner img {
+        width: 40%;
+        margin: 0;
+    }
+
+    .col {
+        width: 30%;
+    }
+
+    .second {
+        float: none;
+    }
+
+    .three {
+        float: right;
+    }
+
+    .two {
+        float: left;
+    }
+  
+}
