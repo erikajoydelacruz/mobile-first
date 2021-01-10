@@ -28,12 +28,7 @@ img {
 }
 
 .portfolio {
-    background-color: white;
     padding: 10px;
-}
-
-article h2 {
-    font-family: Merriweather, serif;
 }
 
 /* ----------nav---------- */
@@ -90,18 +85,29 @@ a:hover {
 
 /* ----------portfolio---------- */
 
+#skills,
 #portfolio {
     text-transform: uppercase;
-    padding: 50px;
+    padding: 40px;
     font-weight: 500;
     font-size: 1.25em;
 }
 
 /* ----------article---------- */
 
+#skills img {
+    height: 40%;
+}
+/* ----------article---------- */
+
 article {
-    padding-bottom: 20px;
-    line-height: 1.2em;
+    padding-bottom: 35px;
+    line-height: 1.4em;
+}
+
+article h2 {
+    font-family: Merriweather, serif;
+    padding-bottom: 8px;
 }
 
 article img {
@@ -231,7 +237,6 @@ footer aside {
         margin: 0 auto;
         font-size: 1em;
         line-height: 1.45em;
-        padding-bottom: 20px;
         height: 80px;
      }
     
@@ -356,6 +361,4 @@ footer aside {
     .footer-nav {
         padding: 0 40px 0 0;
     }
-
-
 }
